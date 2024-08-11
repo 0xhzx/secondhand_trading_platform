@@ -1,0 +1,27 @@
+{
+  "name": "lecture08-signup-list-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cloudinary/url-gen": "^1.19.0",
+    "@cloudinary/vue": "^1.12.1",
+    "@vue/compat": "^3.4.15",
+    "axios": "^1.6.8",
+    "bootstrap-vue": "^2.23.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.0.12",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
